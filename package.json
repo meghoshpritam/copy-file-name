@@ -38,11 +38,11 @@
     "commands": [
       {
         "command": "copyFilename",
-        "title": "%copyFilename%"
+        "title": "Copy File Name"
       },
       {
         "command": "copyFilenameWithoutExtension",
-        "title": "%copyFilenameWithoutExtension%"
+        "title": "Copy File Name Without Extension"
       }
     ],
     "keybindings": [],
@@ -50,6 +50,10 @@
       "explorer/context": [
         {
           "command": "copyFilename",
+          "group": "6_copypath@-10"
+        },
+        {
+          "command": "copyFilenameWithoutExtension",
           "group": "6_copypath@-10"
         }
       ],
