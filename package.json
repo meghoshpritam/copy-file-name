@@ -1,5 +1,5 @@
 {
-  "name": "copy-file-name",
+  "name": "copy-file-name-only",
   "displayName": "Copy File Name Only",
   "description": "Copy only the file name without the extension or the full path.",
   "publisher": "meghoshpritam",
