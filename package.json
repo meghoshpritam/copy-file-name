@@ -5,9 +5,10 @@
   "publisher": "meghoshpritam",
   "version": "1.0.6",
   "icon": "icon.png",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meghoshpritam/copy-file-name"
+    "url": "https://github.com/meghoshpritam/vscode-copy-file-name"
   },
   "engines": {
     "vscode": "^1.67.0"
@@ -77,14 +78,13 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.67.0",
-    "@vscode/test-electron": "^2.1.3",
     "@vscode/vsce": "^3.2.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
     "prettier": "^3.4.2",
-    "typescript": "^4.6.4"
+    "typescript": "^4.9.5"
   }
 }
