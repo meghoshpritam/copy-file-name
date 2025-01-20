@@ -5,7 +5,7 @@ module.exports.activate = (context) => {
     vscode.env.clipboard.writeText(fs.path.split('/').at(-1));
   });
 
-  const copyFilenameWithoutExtension = vscode.commands.registerCommand('copyFilename', (fs) => {
+  const copyFilenameWithoutExtension = vscode.commands.registerCommand('copyFilenameWithoutExtension', (fs) => {
     vscode.env.clipboard.writeText(fs.path.split('/').at(-1).split('.').slice(0, -1).join('.'));
   });
 
